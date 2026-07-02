@@ -318,7 +318,7 @@ h1 {
   font-size: 18px;
   line-height: 1.55;
 }
-
+/*
 .products {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -344,7 +344,7 @@ h1 {
   min-width: 0;
   background: rgba(8, 9, 12, 0.45);
   flex-shrink: 0;
-  height: 160px; /* Уменьшаем высоту изображения */
+  height: 160px;
 }
 
 .card-media img {
@@ -358,8 +358,8 @@ h1 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 16px; /* Уменьшаем отступ */
-  padding: 18px; /* Уменьшаем паддинг */
+  gap: 16px; 
+  padding: 18px; 
   background:
     linear-gradient(180deg, rgba(23, 24, 27, 0.78), rgba(12, 13, 16, 0.92)),
     linear-gradient(135deg, rgba(75, 93, 81, 0.2), rgba(159, 95, 72, 0.18));
@@ -370,7 +370,7 @@ h1 {
   margin-bottom: 0;
   font-family: var(--font-display);
   font-weight: 700;
-  font-size: clamp(20px, 2.5vw, 30px); /* Уменьшаем размер шрифта */
+  font-size: clamp(20px, 2.5vw, 30px); 
   line-height: 1.2;
   letter-spacing: 0;
   display: flex;
@@ -391,7 +391,7 @@ h1 {
   align-items: center;
   justify-content: center;
   gap: 9px;
-  min-height: 44px; /* Уменьшаем высоту кнопки */
+  min-height: 44px; 
   width: 100%;
   border: 1px solid rgba(216, 177, 107, 0.64);
   border-radius: 8px;
@@ -400,7 +400,7 @@ h1 {
   cursor: pointer;
   font: inherit;
   font-weight: 800;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25); /* Уменьшаем тень */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25); 
   transition:
     transform 160ms ease,
     filter 160ms ease,
@@ -429,7 +429,7 @@ h1 {
     linear-gradient(180deg, rgba(23, 24, 27, 0.82), rgba(12, 13, 16, 0.94)),
     linear-gradient(135deg, rgba(216, 177, 107, 0.16), rgba(159, 95, 72, 0.2));
 }
-
+*/
 .footer {
   display: flex;
   flex-wrap: wrap;
